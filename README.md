@@ -1,8 +1,8 @@
-# 🚀 Dynamic Product Catalog (React + Vite)
+#  Dynamic Product Catalog (React + Vite)
 
 A highly responsive, single-page product catalog application structured inside a portable React component. This project demonstrates modern UI design principles alongside efficient React practices.
 
-## 🛠️ Technical Architecture
+##  Technical Architecture
 
 This application simulates a modular architecture despite being predominantly a single-file application (`App.jsx`), prioritizing "drop-in" portability and zero external styling dependencies (no Tailwind, Bootstrap, etc.). 
 
@@ -22,7 +22,7 @@ To ensure maximum portability (the ability to copy-paste \`App.jsx\` into any Re
 - A \`useEffect\` hook fires on mount to dynamically create a \`<style>\` DOM element, populating it with the CSS string, and appending it to the document \`<head>\`. When the component unmounts, the cleanup function cleanly removes the injected styles.
 - **CSS Grid & Flexbox**: Layouts heavily rely on modern CSS methodologies. The catalog grid utilizes \`grid-template-columns: repeat(auto-fill, minmax(260px, 1fr))\` to provide a truly responsive layout that wraps implicitly without explicit media query breakpoints.
 
-## 💻 Running Locally
+##  Running Locally
 
 1. Clone the repository
 2. Install the dependencies:
